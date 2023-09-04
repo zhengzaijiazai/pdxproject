@@ -8,3 +8,5 @@ git status 查看暂存区文件状态
 git add . or git add all 将全部文件都放如暂存区里面
 
 git rm --cached 文件名  将文件从暂存区里拿出来
+
+git log 查看文件的修改信息
