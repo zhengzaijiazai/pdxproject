@@ -21,3 +21,8 @@ git reset --soft HEAD^
 
 git revert HEAD 这也是返回上一个版本 但是在log日志里面 是将这个退回版本 新添加一条 在最前面 
 在前面加一条而不是将指针变回原来的版本
+
+
+git branch  名字       创建分支
+git branch	查看分支
+git checkout 名字    切换到名字分支
