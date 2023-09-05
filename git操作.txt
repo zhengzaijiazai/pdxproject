@@ -30,3 +30,8 @@ git checkout 名字    切换到名字分支
 git merge 要合并的名字  切换到master主支上  开始合并
 
 git branch -d  分支的名字
+
+//添加地址  origin可以变 是名字
+git remote add origin https://github.com/zhengzaijiazai/pdxproject.git
+
+git push origin //将文件推送去你写的地址 往上面的地址去推
