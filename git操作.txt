@@ -26,3 +26,7 @@ git revert HEAD 这也是返回上一个版本 但是在log日志里面 是将�
 git branch  名字       创建分支
 git branch	查看分支
 git checkout 名字    切换到名字分支
+
+git merge 要合并的名字  切换到master主支上  开始合并
+
+git branch -d  分支的名字
