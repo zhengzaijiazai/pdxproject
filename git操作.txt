@@ -37,3 +37,5 @@ git remote add origin https://github.com/zhengzaijiazai/pdxproject.git
 git push origin //将文件推送去你写的地址 往上面的地址去推
 
 git push -u origin master  //设置默认地址 -u  下次直接写git push就可以了
+
+这是测试在github上修改 推送会本地仓库
