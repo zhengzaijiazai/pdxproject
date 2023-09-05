@@ -9,4 +9,15 @@ git add . or git add all 将全部文件都放如暂存区里面
 
 git rm --cached 文件名  将文件从暂存区里拿出来
 
-git log 查看文件的修改信息
+git log 查看文件的修改信息 这个指看到指针指向版本往下的日志 往上的日志是看不到的
+git reflog 可以查看全部的修改日志
+
+这是将master里面直接退回工作区
+git reset --hard HEAD^   这个将版本指向上一个版本号  一个^代表一个版本 两个就退两个版本
+git reset --hard HEAD~2  这也是退两个版本号
+
+这是将mastet退回暂存区   更新简介没写好可以退回重新写
+git reset --soft HEAD^  
+
+git revert HEAD 这也是返回上一个版本 但是在log日志里面 是将这个退回版本 新添加一条 在最前面 
+在前面加一条而不是将指针变回原来的版本
